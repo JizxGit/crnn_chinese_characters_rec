@@ -29,7 +29,7 @@ A Chinese characters recognition repository based on convolutional recurrent net
       ROOT: 'to/your/images/path'
 ```
 3. Put *char_std_5990.txt* in **lib/dataset/txt/**
-4. Download the labels in [here](https://pan.baidu.com/s/1rd4tm0sCq5fFgB2ziUxcrA) (password: w877)
+4. ~~Download the labels in [here](https://pan.baidu.com/s/1rd4tm0sCq5fFgB2ziUxcrA) (password: w877)~~
 5. And put *train.txt* and *test.txt* in **lib/dataset/txt/**
 
     eg. test.txt
