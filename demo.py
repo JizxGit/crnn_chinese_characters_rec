@@ -63,8 +63,8 @@ if __name__ == '__main__':
 
     model = crnn.get_crnn(config).to(device)
     print('loading pretrained model from {0}'.format(args.checkpoint))
-    model.load_state_dict(torch.load(args.checkpoint))
-
+    # model.load_state_dict(torch.load(args.checkpoint))
+    model.load_state_dict(torch.load(args.checkpoint, map_location='cpu'))
     started = time.time()
 
     img = cv2.imread(args.image_path)

@@ -14,11 +14,12 @@ A Chinese characters recognition repository based on convolutional recurrent net
 </p>
 
 ## Dev Environments
-1. WIN 10 or Ubuntu 16.04
+1. WIN 10 or Ubuntu 16.04 or Mac
 2. **PyTorch 1.2.0 (may fix ctc loss)** with cuda 10.0 🔥
-3. yaml
-4. easydict
-5. tensorboardX
+3. opencv：`pip install opencv-python`
+4. yaml `conda install pyyaml`
+5. easydict `pip install easydict`
+6. tensorboardX
 
 ### Data
 #### Synthetic Chinese String Dataset
@@ -62,7 +63,7 @@ or [run] python train.py --cfg lib/config/OWN_config.yaml
 ```
 #### loss curve
 
-```angular2html
+​```angular2html
    [run] cd output/360CC/crnn/xxxx-xx-xx-xx-xx/
    [run] tensorboard --logdir log
 ```
